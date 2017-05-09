@@ -29,7 +29,7 @@ public class ExecutaQuery {
             
             Statement stm = con.createStatement();
             
-            stm.executeUpdate("insert into teste values (7,'tereza');");
+            stm.executeUpdate("insert into testtable_1 values (7,'tereza');");
             
             con.close();
             
